@@ -28,7 +28,7 @@ requirements:
     - python >=3.6
     - six >=1.10.0,<2.0.0
     - tornado >=4.4.1,<6.0
-    - aiohttp
+    - aiohttp >=3.7.0,<=3.7.4
     - nest-asyncio
 
 test:
