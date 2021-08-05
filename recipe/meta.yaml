@@ -1,5 +1,5 @@
 {% set name = "gremlinpython" %}
-{% set version = "3.5.0" %}
+{% set version = "3.5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gremlinpython-{{ version }}.tar.gz
-  sha256: 348be275821f87213279f25731ab0c6e08f8c971a7cbb44302a165e3f7ad11d8
+  sha256: 708932cb136121c880af3f56b556f1a4a9f1ccc0477d5c0518ea65a10ae8a678
 
 build:
   number: 0
@@ -28,7 +28,7 @@ requirements:
     - python >=3.6
     - six >=1.10.0,<2.0.0
     - tornado >=4.4.1,<6.0
-    - aiohttp
+    - aiohttp >=3.7.0,<=3.7.4
     - nest-asyncio
 
 test:
