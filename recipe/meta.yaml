@@ -1,5 +1,5 @@
 {% set name = "gremlinpython" %}
-{% set version = "3.5.2" %}
+{% set version = "3.7.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gremlinpython-{{ version }}.tar.gz
-  sha256: 2ebaa1f360ba62c48705b056ba3d4e92e448287431f42a92eef4b2217ae51c5b
+  sha256: 27647865dea0064d90f1c8648a5d9203c5daafa73c287ed30ecc6f5c787b0da0
 
 build:
   number: 0
